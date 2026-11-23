@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Anas Khalil — Junior Front-End Developer</title>
+  <meta name="description" content="Portfolio of Anas Khalil, junior front-end developer from Ariana, Tunis. HTML, CSS, JavaScript, PHP and MySQL.">
+  <meta name="author" content="Anas Khalil">
+  <meta property="og:title" content="Anas Khalil — Junior Front-End Developer">
+  <meta property="og:description" content="Junior front-end developer building modern, user-friendly web experiences. HTML, CSS, JavaScript, PHP and MySQL.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f5f3ef">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23102b50'/%3E%3Ctext x='50' y='68' font-family='Arial Black,Arial' font-size='48' font-weight='900' fill='%23f5f3ef' text-anchor='middle'%3EAK%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=6">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <!-- Loader -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-center">
+      <div class="blocks">
+        <i style="--i:0;background:#102b50"></i>
+        <i style="--i:1;background:#2463a5"></i>
+        <i style="--i:2;background:#a9b9cc"></i>
+        <i style="--i:3;background:#252b35"></i>
+        <i style="--i:4;background:#f5f3ef;border:1px solid rgba(16,43,80,.2)"></i>
+      </div>
+      <small>Loading</small>
+    </div>
+    <div class="count">000%</div>
+  </div>
+
+  <div class="cur" aria-hidden="true"></div>
+  <div class="cur-dot" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="logo" href="#top" aria-label="AK — Anas Khalil, back to top">AK<span aria-hidden="true">.</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span>
+      <span></span>
+    </button>
+    <div class="scroll-progress" aria-hidden="true"><i id="scrollProgress"></i></div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-top">
+        <span>Portfolio — 2026</span>
+        <span>Ariana, Tunis · TN</span>
+      </div>
+
+      <span class="hero-mark" aria-hidden="true">AK</span>
+      <h1 class="dev" id="hero-title"><span>Developer</span></h1>
+
+      <div class="hero-status">
+        <span class="status-dot" aria-hidden="true"></span>
+        Available for junior front-end roles
+      </div>
+
+      <div class="hero-bottom">
+        <div class="hi">
+          <span>Hello,</span>
+          <span>I'm Anas</span>
+          <span>Khalil</span>
+        </div>
+        <div class="hero-aside">
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work"><span>Selected work</span><span class="arrow" aria-hidden="true">↓</span></a>
+            <a class="btn btn-ghost" href="assets/Anas-Khalil-CV.pdf" target="_blank" rel="noopener"><span>Download CV</span><span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
+          <p class="sub">Junior Front-End Developer · HTML · CSS · JavaScript</p>
+          <p class="scroll">Scroll to explore <span aria-hidden="true">↓</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div id="mq">
+        <span>Junior Front-End Developer · HTML · CSS · JavaScript · PHP · MySQL · Content Creation · Open to work ·&nbsp;</span>
+        <span>Junior Front-End Developer · HTML · CSS · JavaScript · PHP · MySQL · Content Creation · Open to work ·&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <h2 class="label">About</h2>
+      <p class="big" id="bio">
+        <span>I'm</span> <span>an</span> <span id="age" data-dob="2007-09-27">19-year-old</span> <span>developer</span> <span>with</span> <span>a</span> <span>strong</span> <span>foundation</span> <span>in</span> <span>computer</span> <span>science</span> <span>(Bac</span> <span>2026)</span> <span>and</span> <span>a</span> <span>passion</span> <span>for</span> <span>creating</span> <span>modern,</span> <span>user-friendly</span> <span>web</span> <span>experiences.</span> <span>I</span> <span>learn</span> <span>fast</span> <span>with</span> <span>AI-assisted</span> <span>tools,</span> <span>and</span> <span>I</span> <span>understand</span> <span>digital</span> <span>audiences</span> <span>—</span> <span>I</span> <span>grew</span> <span>an</span> <span>online</span> <span>community</span> <span>to</span> <span>40,000+</span> <span>followers.</span> <span>I'm</span> <span>eager</span> <span>to</span> <span>apply</span> <span>my</span> <span>front-end</span> <span>skills</span> <span>in</span> <span>a</span> <span>professional</span> <span>environment.</span>
+      </p>
+
+      <div class="stats" id="stats">
+        <div>
+          <b data-n="40000" data-suffix="+">0</b>
+          <em>Community followers</em>
+        </div>
+        <div>
+          <b data-n="6" data-pad="2">0</b>
+          <em>Web projects</em>
+        </div>
+        <div>
+          <b data-n="12.98" data-decimals="2" data-suffix="/20">0</b>
+          <em>Baccalaureate score</em>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pinned projects -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="pin" id="pin">
+        <div class="work-head">
+          <h2 class="label" id="work-title">Selected Work</h2>
+          <span class="work-hint">Scroll to move through</span>
+        </div>
+
+        <div class="titles" id="titles">
+          <article class="project is-active" data-bg="#102b50">
+            <div class="proj-top"><span class="proj-no">01</span><span class="proj-year">2026</span></div>
+            <h3>Club Africain<br>Fan Platform</h3>
+            <p class="proj-desc">A modern football fan website concept built with Next.js and Tailwind CSS, using AI-assisted development. Responsive interfaces, with exploration of APIs, databases and authentication.</p>
+            <ul class="proj-tags"><li>Next.js</li><li>Tailwind CSS</li><li>AI-assisted</li></ul>
+          </article>
+
+          <article class="project" data-bg="#2463a5">
+            <div class="proj-top"><span class="proj-no">02</span><span class="proj-year">2026</span></div>
+            <h3>Olympique Beja<br>Fan Platform</h3>
+            <p class="proj-desc">A football fan platform for Olympique Beja supporters, designed as a responsive and modern web experience.</p>
+            <ul class="proj-tags"><li>Fan platform</li><li>Responsive</li><li>2026</li></ul>
+          </article>
+
+          <article class="project" data-bg="#252b35">
+            <div class="proj-top"><span class="proj-no">03</span><span class="proj-year">2026</span></div>
+            <h3>Anas TV<br>Website</h3>
+            <p class="proj-desc">A website project for Anas TV, focused on a clean, responsive front-end experience and a clear content layout.</p>
+            <ul class="proj-tags"><li>Website</li><li>Front-end</li><li>2026</li></ul>
+          </article>
+
+          <article class="project" data-bg="#1b3f6b">
+            <div class="proj-top"><span class="proj-no">04</span><span class="proj-year">2026</span></div>
+            <h3>Portfolio<br>Website</h3>
+            <p class="proj-desc">A personal portfolio website — responsive layout, interface design and front-end development.</p>
+            <ul class="proj-tags"><li>Portfolio</li><li>UI design</li><li>2026</li></ul>
+          </article>
+
+          <article class="project" data-bg="#2e5f8f">
+            <div class="proj-top"><span class="proj-no">05</span><span class="proj-year">2025</span></div>
+            <h3>Personal Web<br>Projects</h3>
+            <p class="proj-desc">Websites built with HTML, CSS and JavaScript. UI design and web application concepts, using AI tools for debugging and improving the workflow.</p>
+            <ul class="proj-tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          </article>
+
+          <article class="project" data-bg="#0b1f3a">
+            <div class="proj-top"><span class="proj-no">06</span><span class="proj-year">2022</span></div>
+            <h3>1st School<br>Project</h3>
+            <p class="proj-desc">My first website project, developed during high school to practise front-end development with HTML, CSS and JavaScript.</p>
+            <ul class="proj-tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          </article>
+        </div>
+
+        <div class="work-foot">
+          <div class="idx">
+            <span class="arrows">
+              <button id="prev" type="button" aria-label="Previous project">↑</button>
+              <button id="next" type="button" aria-label="Next project">↓</button>
+            </span>
+            <span id="cur" aria-live="polite">01</span>
+            <span>/ 06</span>
+          </div>
+          <div class="bar" aria-hidden="true"><i id="prog"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2 class="label">Technical Skills</h2>
+
+      <div class="rows">
+        <div class="row">
+          <div class="row-key"><span>01</span>Programming</div>
+          <div class="row-val"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+        <div class="row">
+          <div class="row-key"><span>02</span>Backend &amp; Data</div>
+          <div class="row-val"><span>PHP</span><span>MySQL</span></div>
+        </div>
+        <div class="row">
+          <div class="row-key"><span>03</span>Tools &amp; Technologies</div>
+          <div class="row-val"><span>VS Code</span><span>Antigravity</span><span>Figma</span><span>ChatGPT</span><span>Claude</span><span>GitHub</span></div>
+        </div>
+        <div class="row">
+          <div class="row-key"><span>04</span>Other Skills</div>
+          <div class="row-val"><span>Video Editing</span><span>Graphic Design</span><span>Social Media Growth</span><span>Team Collaboration</span><span>Content Creation</span><span>Game Development</span></div>
+        </div>
+        <div class="row">
+          <div class="row-key"><span>05</span>Spoken languages</div>
+          <div class="row-val"><span>Arabic (Native)</span><span>English (Professional)</span><span>French (Intermediate)</span><span>Spanish (Basic)</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & education -->
+    <section class="exp" id="experience">
+      <h2 class="label">Experience &amp; Education</h2>
+
+      <div class="exp-list">
+        <article class="exp-row">
+          <div class="exp-key">
+            <span class="exp-no">01</span>
+            <h3>Junior Front-end Developer</h3>
+            <p class="exp-meta">Independent · Ongoing</p>
+          </div>
+          <ul class="exp-desc">
+            <li>Developed web applications and explored modern programming technologies.</li>
+            <li>Managed social media communities and digital content strategies.</li>
+            <li>Learned new technologies independently through online resources and AI tools.</li>
+          </ul>
+        </article>
+
+        <article class="exp-row">
+          <div class="exp-key">
+            <span class="exp-no">02</span>
+            <h3>Tunisian Baccalaureate</h3>
+            <p class="exp-meta">Computer Science · 2026</p>
+          </div>
+          <div class="exp-desc">
+            <p>Computer Science — fairly good <strong>(12.98 / 20)</strong>.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h2 class="label">Contact</h2>
+
+      <div class="contact-body">
+        <a class="talk" href="mailto:anaskhalil187@gmail.com" aria-label="Email Anas Khalil">
+          <span class="l"><span>Let's</span></span>
+          <span class="l"><span>Talk!</span></span>
+        </a>
+
+        <div class="contact-meta">
+          <p class="contact-note">Open to junior front-end and web developer opportunities.</p>
+          <nav class="contact-links" aria-label="Contact links">
+            <a href="mailto:anaskhalil187@gmail.com">Email <span aria-hidden="true">↗</span></a>
+            <a href="tel:+21642323911">+216 42 323 911 <span aria-hidden="true">↗</span></a>
+            <a href="assets/Anas-Khalil-CV.pdf" target="_blank" rel="noopener">CV / PDF <span aria-hidden="true">↗</span></a>
+          </nav>
+          <div class="contact-loc">
+            <span>Ariana, Tunis</span>
+            <a href="#top">Back to top ↑</a>
+            <span>© 2026 Anas Khalil</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js?v=6" defer></script>
+</body>
+</html>
